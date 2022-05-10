@@ -1,0 +1,128 @@
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 54px;
+    line-height: 67px;
+  }
+  .tab-menu {
+    height: 68px;
+    ul {
+      overflow-x: auto;
+      &::-webkit-scrollbar {
+        width: 0px;
+      }
+    }
+    li {
+      white-space: nowrap;
+      width: auto;
+    }
+  }
+  .tab-item_in {
+flex-wrap: wrap;
+  }
+  .text-wrapper {
+    padding: 14px 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .loading-block_left {
+    height: 450px;
+  }
+  .download-info {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    img {
+      margin: 0 0 45px;
+    }
+  }
+  .img-wrapper {
+    margin: 15px auto 26px;
+  }
+  .accordeon {
+    max-width: none;
+  }
+  .tab-item {
+    padding: 75px 20px 0;
+  }
+
+}
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  h2 {
+    font-size: 34px;
+    line-height: 47px;
+    margin: 0 0 60px;
+  }
+  .btn {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0 0 25px;
+    padding: 16px 10px 20px;
+  }
+  .accordeon-item {
+    font-size: 24px;
+    min-height: 62px;
+  }
+  .tab-item_in {
+    flex-wrap: wrap;
+  }
+  .text-wrapper {
+    width: 100%;
+    padding: 14px 0 0;
+    text-align: center;
+  }
+  .loading-block {
+    padding: 30px 20px 55px;
+    .in {
+      flex-wrap: wrap;
+      padding: 0;
+    }
+  }
+  .loading-block_right {
+    width: 100%;
+    padding: 30px 0 0;
+    label {
+      font-size: 24px;
+      line-height: 29px;
+      margin: 0 0 25px;
+      padding: 16px 10px 20px;
+    }
+  }
+  .loading-block_left {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+  }
+  .download-info {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    p {
+      font-size: 16px;
+      line-height: 18px;
+    }
+    img {
+      width: 56px;
+      margin: 0 0 20px;
+    }
+  }
+  .img-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  .tab-item {
+    padding: 50px 20px 0;
+  }
+  .results-block {
+    padding: 35px 0 50px;
+  }
+  .header {
+    padding: 10px 20px 17px;
+  }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+ <header class="header">
+  <div class="burger">
+    <span></span>
+  </div>
+</header>
+
+<section class="loading-block">
+  <h2>UP Face</h2>
+<div class="in">
+  <label class="loading-block_left" for="input-file">
+    <input type="file" id="input-file">
+    <div class="download-info">
+      <img src="images/download.png" alt="">
+      <p>Загрузите файл формата jpg, jpeg, png</p>
+    </div>
+  </label>
+  <div class="loading-block_right">
+    <label for="input-file">
+      Загрузить фото
+    </label>
+    <button class="btn">Распознать</button>
+  </div>
+</div>
+</section>
+<section class="results-block">
+  <h2>Результаты распознавания</h2>
+  <div class="tab">
+    <div class="tab-menu">
+      <ul>
+        <li class="active">Координаты лица</li>
+        <li>Параметры распознавания</li>
+        <li>На кого похож</li>
+      </ul>
+    </div>
+    <div class="tab-content">
+      <div class="tab-item open">
+        <div class="img-wrapper">
+          <img src="images/img.jpeg" alt="">
+        </div>
+        <div class="accordeon">
+<div class="accordeon-item">
+  Размеры отрезков для измерения
+  <div class="drop">
+111
+  </div>
+
+</div>
+          <div class="accordeon-item">
+            Лицевые углы
+            <div class="drop">
+1111
+            </div>
+
+          </div>
+          <div class="accordeon-item">
+            Относительные размеры лица
+            <div class="drop">
+111
+            </div>
+
+          </div>
+          <div class="accordeon-item">
+            Показатели асимметрии по углам
+            <div class="drop">
+111
+            </div>
+
+          </div>
+          <div class="accordeon-item">
+            Показатели асимметрии по отрезкам
+            <div class="drop">
+111
+            </div>
+
+          </div>
+          <div class="accordeon-item">
+            Цвет глаз: Серо-голубые 61/1580 0.102 сек.
+            <div class="drop">
+111
+            </div>
+
+          </div>
+        </div>
+      </div>
+<div class="tab-item">
+  <ul>
+    <li>    Возраст: c вероятностью 70% в интервале от 17 до 34. Среднее: 24 [0.601 сек.]</li>
+<li> Пол: Женский (1.00) [0.616 сек.]</li>
+   <li>Раса: Европейская (0.78) [0.604 сек.]</li>
+    <li>Эмоция: Презрение (0.43) [0.216 сек.]</li>
+<li>Тату: Нет (0.99) [0.157 сек.]</li>
+    <li>Шрамы: Нет (0.90) [0.214 сек.]</li>
+<li>Пирсинг: Нет (1.00) [1.162 сек.]</li>
+    <li>Волосы: Собранные (0.98) [0.156 сек.]</li>
+<li>Цвет волос: Брюнет(ка) (0.99) [0.158 сек.]</li>
+<li>Седина: Нет [0.303 сек.]</li>
+<li>Морщины: Нет (1.00) [0.063 сек.]</li>
+    <li> Макияж: Есть (0.81) [0.156 сек.]</li>
+  </ul>
+
+</div>
+      <div class="tab-item">
+        <div class="tab-item_in">
+          <div class="img-wrapper">
+            <img src="images/img.jpeg" alt="">
+          </div>
+         <div class="text-wrapper">
+           <p>Выявлено сходство с Имя знаменитости</p>
+         </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+ <script src="js/libs/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
+

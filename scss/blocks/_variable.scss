@@ -1,0 +1,39 @@
+
+
+body {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  min-width: 320px;
+}
+h2 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #000000;
+  margin: 0 0 90px;
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  width: 100%;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 20px;
+  margin: 0 0 35px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  padding: 16px 10px 25px;
+  box-sizing: border-box;
+  background: #009688;
+  &:hover {
+    background: rgba(0, 150, 136, 0.9);
+  }
+}
+
+
